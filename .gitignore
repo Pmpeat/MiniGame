@@ -1,0 +1,63 @@
+#This is the git ignore file used in Duck Hunted
+#Note that ! negates an ignore. We ignore everything in Library then
+#un-ignore the metadata folder and some specific files
+#Use at your own risk, this may totally destroy your project, but it worked for us
+ 
+ 
+#NOTE: this will cause your collaborators to re-import assets periodically
+Temp/*
+Library/*
+Library_old/*
+test_Data/*
+Build/*
+obj/*
+#Un-ignore these specific files
+ 
+
+#ignoring pidb, they are just code completion caching data according to:
+# http://stackoverflow.com/questions/1022111/what-are-monodevelops-pidb-files
+*.pidb
+*.userprefs
+
+.DS_Store
+*.sublime-*
+
+*.csproj
+*-csharp.sln
+*.sln
+*.suo
+*.unityproj
+UpgradeLog.XML
+UpgradeLog.htm
+Assembly-CSharp*
+unity.log
+test.exe
+
+.env
+*.pyc
+.sass-cache
+Thumbs.db
+Resources/Build
+/.project
+/Assets/Fargo/Prefab/Scene/Director/Filo.meta
+/Assets/Fargo/Prefab/Scene/chapter2.meta
+/Assets/Fargo/Script/Sound.meta
+/Assets/Fargo/Shader.meta
+/Assets/Packer/3-8.meta
+/Assets/Plugins/Editor/RageSpline/Resources.meta
+
+OuyaNativeActivity.apk
+/Assets/Pandoria/PlayerModel/Ares.meta
+/Assets/Pandoria/PlayerModel/Ares/Ares.fbx
+/Assets/Pandoria/PlayerModel/Ares/Ares.fbx.meta
+/Assets/Pandoria/PlayerModel/Ares/AresTest.prefab
+/Assets/Pandoria/PlayerModel/Ares/AresTest.prefab.meta
+/Assets/Pandoria/PlayerModel/Ares/GunLow.jpg
+/Assets/Pandoria/PlayerModel/Ares/GunLow.jpg.meta
+/Assets/Pandoria/PlayerModel/Ares/Materials.meta
+/Assets/Pandoria/PlayerModel/Ares/Materials/GunLow.mat
+/Assets/Pandoria/PlayerModel/Ares/Materials/GunLow.mat.meta
+/Assets/Pandoria/PlayerModel/Ares/Materials/P_Ares_DIF.mat
+/Assets/Pandoria/PlayerModel/Ares/Materials/P_Ares_DIF.mat.meta
+/Assets/Pandoria/PlayerModel/Ares/P_Ares_DIF.jpg
+/Assets/Pandoria/PlayerModel/Ares/P_Ares_DIF.jpg.meta
